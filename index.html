@@ -10,6 +10,27 @@
 
   gtag('config', 'UA-176315763-1');
 </script>
+<script type="text/javascript">
+    var opacity = 0;
+    var intervalID = 0;
+    window.onload = fadeIn;
+
+    function fadeIn() {
+        setInterval(show, 30);
+    }
+
+    function show() {
+        var body = document.getElementById("body");
+        opacity = Number(window.getComputedStyle(body)
+                         .getPropertyValue("opacity"));
+        if (opacity < 1) {
+            opacity = opacity + 0.1;
+            body.style.opacity = opacity
+        } else {
+            clearInterval(intervalID);
+        }
+    }
+</script>
         <link href="style.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com"> 
         <link rel="stylesheet" href="https://use.typekit.net/tpz7gja.css">
@@ -19,8 +40,9 @@
         <title> Hieu Han Tran </title>
     </head>
 
+<body id="body" style="opacity:0;">
     <header>
-        <a href="http://hieuhantr.me/portfolio/" style="padding-left: 14%"> <img src="logo-text.svg" alt="Hieu Han Tran logo"></a>
+        <a href="index.html" style="padding-left: 14%"> <img src="logo-text.svg" alt="Hieu Han Tran logo"></a>
         <nav style="padding-right: 14%">
             <h2>
             <a class="selected" href="index.html"> WORK </a>
@@ -40,37 +62,39 @@
 </section> 
 
 <div class="preview">
-    <a href="project-polyride.html"> <img src="Untitled-4.png" alt="SLO Vintage Auto Project"> </a>
+    <a href="polyride.html"> <img src="Preview.png" alt="Poly Ride Project"> </a>
         <div class="description"> 
-        <a href="project-polyride.html"> <h3>Poly Ride </h3>  </a>
-        <a href="project-polyride.html"> <h4> A ride share platform exclusively for Cal Poly students &#8594  </h4> </a>
+        <a href="polyride.html"> <h3>Poly Ride </h3>  </a>
+        <a href="polyride.html"> <h4> A ride share platform exclusively for Cal Poly students &#8594  </h4> </a>
         
     </div>
  </div>
  
- 
  <div class="preview-2">
-    <a href="project-aws.html"> <img src="project-image.jpeg" alt="SLO Vintage Auto Project"> </a>
+    <div class="preview-inside2">
+    <a href="aws.html"> <img src="project-image.jpeg" alt="AWS Project"> </a>
         <div class="description"> 
-        <a class="preview" href="soks.html"> <h3>Project name</h3>  </a>
-        <h4> Hello hello hello hello hello </h4> </div> 
-
-<div class="preview-2">
-    <a href="slo-vintage.html"> <img src="project-image.jpg" alt="SLO Vintage Auto Project"> </a>
+        <a class="preview" href="aws.html"> <h3> Amazon Web Services</h3>  </a>
+        <h4> Hello hello hello hello hello </h4> </div>
+    </div>
+    
+<div class="preview-inside2">
+    <a href="slo-vintage.html"> <img src="Preview.png" alt="SLO Vintage Auto Project"> </a>
         <div class="description"> 
         <a class="preview" href="soks.html"> <h3>Project name 3</h3>  </a>
         </h4> Hi hello hello hello hello </h4> </div>
- </div>  </div>
+    </div>
+</div>
 
  <div class="preview-3">
-    <a href="polyride.html"> <img src="project-mockup.png" alt="SLO Vintage Auto Project"> </a>
+    <a href="polyride.html"> <img src="Preview.png" alt="SLO Vintage Auto Project"> </a>
         <div class="description"> 
         <a class="preview" href="soks.html"> <h3>Project name lorem 4</h3> </a>
         <h4> PolyRide app will let Cal Poly students find and offer rides, which allows users to move to/from San Luis Obispo cost-effectively and conveniently.  <br> database information systems </h4></div>
  </div>
 
  <div class="preview-4">
-    <a href="polyride.html"> <video autoplay muted src="project-polyride/vid2.mp4" type="video/mp4"> </video> </a>
+    <a href="polyride.html"> <img src="Preview.png" alt="SLO Vintage Auto Project"> </a>
         <div class="description"> 
         <a class="preview" href="soks.html"> <h3>Project name lorem 5</h3>  </a>
         <h4> My project description My project description project  <br> database information systems </h4></div>
@@ -91,7 +115,6 @@
         </h2>
         </div>
   </div>
-
-
+</body>
 
 </html>
