@@ -17,3 +17,8 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+ScrollReveal().reveal('.text', { delay: 100 });
+ScrollReveal().reveal('.fullcolumn', { delay: 200 });
+ScrollReveal().reveal('.columnone', { delay: 100 });
+ScrollReveal().reveal('.columntwo', { delay: 100 });

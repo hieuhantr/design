@@ -60,7 +60,6 @@ input, textarea, select {
   text-rendering: optimizeLegibility;
 }
 
-
 body {
     font-family: 'Heebo', sans-serif;
     font-size: 14px;
@@ -455,7 +454,7 @@ button {
 
 .heading {
     grid-column: 6 / span 4;
-    text-align: right;
+    text-align: fright;
     align-items: right;
     text-align: left;
     margin-bottom: 40px;
@@ -513,9 +512,9 @@ button {
     text-align: center;
     vertical-align: middle;
     height: 67px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 150px;
 }
 
@@ -528,21 +527,18 @@ button {
 }
 
 .button1 a {
-    margin-bottom: 50%;
     vertical-align: middle;
     text-align: center;
-    padding: 8px;
+    padding: 17px 40px;
     color: white;
     text-decoration: none;
 }
 
 .button1:hover{
-    background-color: #F7F7F7;
+    background-color: grey;
     transition: 0.3s;
-}
-
-.button1 a:hover {
-    color: #1C2430;
+    color:#1C2430;
+    cursor: pointer;
 }
 
 #myBtn {
@@ -557,8 +553,8 @@ button {
     height: 67px;
   }
   
-  #myBtn:hover {
-    color:#1C2430;
+#myBtn:hover {
+    background-color: white;
     transition: 0.3s;
   }
 
