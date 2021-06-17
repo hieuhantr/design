@@ -61,66 +61,67 @@ input, textarea, select {
 }
 
 body {
-    font-family: 'Heebo', sans-serif;
-    font-size: 14px;
-    font-weight: 200;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
     background-color:#ffffff;
     margin: auto auto auto auto;
     display: grid;
     grid-template-columns: repeat(24,1fr);
     column-gap: 33px;
     grid-auto-flow: dense;
-    color: #1C2430;
+    color: #1f1f1f;
 }
 
 p {
-    color: #1C2430; 
+    color: #1f1f1f; 
     line-height: 1.663;
 }
 
 span {
     font-weight: 600;
-    color: #1C2430;
+    color: #1f1f1f;
 }
 
 h1 {
     font-family: futura-pt, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-size: 26px;
     letter-spacing: -0.15px;
-    color: #1C2430;
+    color: #1f1f1f;
 
 }
 
 h2 {
-    font-family: 'Heebo', sans-serif;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
-    font-weight: 600;
     line-height: 1.66;
-    color: #1C2430;
+    color: #1f1f1f;
 }
 
 h3 {
-    font-family: futura-pt, sans-serif;
-    font-weight: 700;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
     font-style: normal;
-    font-size: 20px;
-    letter-spacing: -0.15px;
-    color: #1C2430;
+    font-size: 18px;
+    color: #1f1f1f;
 }
 
 h4 {
-    font-family: 'Heebo', sans-serif;
-    font-size: 15px;
-    font-weight: 200;
+    font-family: futura-pt, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
     line-height: 1.66;
+    color: #1f1f1f;
 }
 
 h5 {
-    font-family: 'Heebo', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.66;
     text-align: center;
 }
@@ -137,25 +138,28 @@ header {
     grid-column: 1/ span 24;
     justify-content: space-between;
     margin: auto 0 135px 0;
-    padding-top: 38px;
+    padding-top: 55px;
 }
 
+header img {
+    max-width: 130px;
+}
 
 nav a {
-    margin: 0 0 0 66px;
+    margin: 0 0 0 56px;
     text-decoration: none;
     color: #B7B7B7;
     cursor: pointer;
 }
 
 a:hover {
-    color: #1C2430;
+    color: #1f1f1f;
     transition: color 0.3s;
     cursor: pointer;
 }
 
 a.selected {
-    color: #1C2430;
+    color: #1f1f1f;
 }
 
 a.preview {
@@ -164,18 +168,16 @@ a.preview {
 }
 
 a.preview:hover, a.preview-right:hover {
-    color: #1C2430;
+    color: #1f1f1f;
     transition: 0.3s;
 }
 
-.line {
-    padding-top: 50px;
-    grid-column: 4/span 2;
-}
-section.tagline {
-    grid-column: 6/span 15;
-    padding-top: 50px;
+.tagline {
+    grid-column: 2/span 20;
+    padding-left: 12%;
+    padding-top: 30px;
     padding-bottom: 140px;
+    text-align: center;
 }
 
 a {
@@ -187,7 +189,7 @@ a {
     grid-column: 3 / span 12;
     position: relative;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 668px;
     border-radius: 5px;
@@ -227,7 +229,7 @@ button {
     grid-column: 15 / span 8;
     position: relative;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 668px;
     border-radius: 5px;
@@ -237,7 +239,7 @@ button {
     grid-column: 15 / span 8;
     position: relative;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 317.5px;
     border-radius: 5px;
@@ -270,7 +272,7 @@ button {
     position: relative;
     margin-top: 33px;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 394px;
     border-radius: 5px;
@@ -291,7 +293,7 @@ button {
     position: relative;
     margin-top: 33px;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 394px;
     border-radius: 5px;
@@ -302,7 +304,7 @@ button {
     grid-column: 3 / span 10;
     position: relative;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 567px;
     border-radius: 5px;
@@ -313,7 +315,7 @@ button {
     margin: 0 0 20px 0;
     position: relative;
     object-fit: cover;
-    height: 567px;
+    height: 100%;
     opacity: 1.0;
     transition: 0.3s;
 }
@@ -328,7 +330,7 @@ button {
     grid-column: 13 / span 10;
     position: relative;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 567px;
     border-radius: 5px;
@@ -338,7 +340,7 @@ button {
     opacity: 1.0;
     transition: 0.3s;
     position: relative;
-    height: 567px;
+    height: 100%;
     object-fit: cover;
     width: 100%;
     border-radius: 5px;
@@ -349,7 +351,7 @@ button {
     grid-column: 3 / span 20;
     position: relative;
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
     overflow: hidden;
     height: 415px;
     border-radius: 5px;
@@ -395,7 +397,11 @@ button {
     display:inline;
     grid-column: 1 / span 10;
     }
-    
+
+.Footer_inner_left img {
+    max-width: 130px
+}
+
 .Footer_inner_right{
     width: 49%;
     Float: right;
@@ -409,17 +415,17 @@ button {
 }
 
 .Footer_inner_right a:hover {
-    color: #1C2430;
+    color: #1f1f1f;
     transition: color 0.3s;
 }
 
 .Footer_inner_right a.selected {
-    color: #1C2430;
+    color: #1f1f1f;
 }
 
 .Footer_inner_right a.preview {
     text-decoration: none;
-    color: #1C2430;
+    color: #1f1f1f;
 }
 
 /* || PROJECT PAGE */
@@ -462,7 +468,7 @@ button {
 
 .text {
     grid-column: 10 / span 10;
-    padding-bottom: 72px;
+    padding-bottom: 90px;
     margin-top: 5px;
 }
 
@@ -472,16 +478,20 @@ button {
 
 .columnone {
     grid-column: 10/span 5;
-    margin-bottom: 72px;
+    margin-bottom: 90px;
 }
 
 .columntwo {
     grid-column: 15/span 5;
-    margin-bottom: 72px;
+    margin-bottom: 90px;
 }
 
 .fullcolumn {
     grid-column: 6/span 14;
+    position: relative;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 .fullcolumn img {
@@ -507,7 +517,7 @@ button {
 /* Back to top */
 .button1 {
     grid-column: 10 / span 6;
-    background-color:#1C2430;
+    background-color:#F7F7F7;
     border-radius: 5px;
     text-align: center;
     vertical-align: middle;
@@ -530,14 +540,14 @@ button {
     vertical-align: middle;
     text-align: center;
     padding: 17px 40px;
-    color: white;
+    color: #1f1f1f;
     text-decoration: none;
 }
 
 .button1:hover{
-    background-color: grey;
+    background-color: white;
     transition: 0.3s;
-    color:#1C2430;
+    color:#1f1f1f;
     cursor: pointer;
 }
 
@@ -547,7 +557,7 @@ button {
    /*  position: fixed; Fixed/sticky position */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    color: #1C2430; /* Text color */
+    color: #1f1f1f; /* Text color */
     background-color: #F7F7F7;
     cursor: pointer; /* Add a mouse pointer on hover */
     height: 67px;
@@ -572,9 +582,6 @@ html {
     .preview-6{
         grid-column: 13/span 11;
     }
-    .preview-5{
-        grid-column: 2/span 11;
-    }
 
     .preview-7{
         grid-column: 2/span 22;
@@ -588,11 +595,11 @@ html {
     }
     
     .columnone {
-        grid-column: 9/span 5;
+        grid-column: 9/span 6;
     }
     
     .columntwo {
-        grid-column: 15/span 5;
+        grid-column: 15/span 6;
     }
     
     .fullcolumn {
@@ -612,6 +619,20 @@ html {
 }
 
 @media (max-width: 1100px) {
+    .preview-5{
+        grid-column: 3/span 20;
+        height: 630px;
+        margin-bottom: 33px;
+    }
+
+    .preview-6{
+        grid-column: 3/span 20;
+        height: 680px;
+    }
+
+    .preview-7{
+        grid-column: 3/span 20;
+    }
 .preview{
     grid-column: 2/span 13;
 }
@@ -651,6 +672,8 @@ grid-column: 6/span 6;
 .fullcolumn {
     grid-column: 4/span 18;
 }
+
+
 .button1 {
     grid-column: 9/span 8;
 }
@@ -671,9 +694,9 @@ grid-column: 6/span 6;
 
 .text { grid-column: 8 / span 14; }
 
-.columnone { grid-column: 8/span 6; }
+.columnone { grid-column: 8/span 7; }
 
-.columntwo {grid-column: 15/span 6; }
+.columntwo {grid-column: 15/span 7; }
 
 .fullcolumn {
     grid-column: 3/span 20; }
@@ -690,13 +713,13 @@ grid-column: 6/span 6;
             }
             
 .heading { grid-column: 3 / span 10;
-margin-bottom: 10px;}
+margin-bottom: 20px;}
 
 .text { grid-column: 3 / span 20; padding-bottom: 50px;}
 
-.columnone { grid-column: 7/span 6; }
+.columnone { grid-column: 3/span 9; }
 
-.columntwo {grid-column: 15/span 6; }
+.columntwo {grid-column: 12/span 9; }
 
 .fullcolumn {
     grid-column: 3/span 20; }
@@ -713,19 +736,20 @@ margin-bottom: 10px;}
     }
 
 @media (max-width: 800px) {
-.heading { grid-column: 4 / span 15;
-margin-bottom: 10px;}
+.heading { grid-column: 4 / span 10;
+margin-bottom: 20px;}
 
-.text { grid-column: 4 / span 18; padding-bottom: 50px;}
+.text { grid-column: 4 / span 17; padding-bottom: 50px;}
 
-.columnone { grid-column: 7/span 6; }
+.columnone { grid-column: 4/span 8; }
 
-.columntwo {grid-column: 15/span 6; }
+.columntwo {grid-column: 12/span 8; }
 
 .fullcolumn {
-    grid-column: 2/span 22; }
+    grid-column: 4/span 17; }
+.description { right: 40%; padding-bottom: 100px }
 
 #myBtn {
-    padding-top: 7%;
+    padding-top: 6%;
 }
 }
