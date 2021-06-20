@@ -215,7 +215,7 @@ a {
     position: absolute;
     top: 20px;
     left: 30px;
-    padding-right: 100px;
+    padding-right: 30px;
 }
 
 button {
@@ -306,7 +306,7 @@ button {
     text-decoration: none;
     color: #1f1f1f;
     overflow: hidden;
-    height: 567px;
+    min-height: 567px;
     border-radius: 5px;
 }
 
@@ -321,7 +321,6 @@ button {
 }
 
 .preview-5 img:hover, .preview-6 img:hover, .preview-7 img:hover {
-    opacity: 0.9;
     transition: 0.3s ease;
     transform: scale(1.1);
 }
@@ -332,7 +331,7 @@ button {
     text-decoration: none;
     color: #1f1f1f;
     overflow: hidden;
-    height: 567px;
+    min-height: 567px;
     border-radius: 5px;
 }
 
@@ -353,7 +352,8 @@ button {
     text-decoration: none;
     color: #1f1f1f;
     overflow: hidden;
-    height: 415px;
+    max-height: 700px;
+    min-height: 400px;
     border-radius: 5px;
     margin-top: 33px;
 }
@@ -362,7 +362,8 @@ button {
     opacity: 1.0;
     transition: 0.3s;
     position: relative;
-    height: 415px;
+    max-height: 700px;
+    min-height: 400px;
     object-fit: cover;
     width: 100%;
     border-radius: 5px;
@@ -386,7 +387,7 @@ button {
 /* || FOOTER */
 .Footer_outer{
     grid-column: 1 / span 24;
-    margin: 300px 0 0 0;
+    margin-top: 5%;
     padding: 8% 14% 14% 14%;
     background-color: #F8F8F8;
     }
@@ -490,11 +491,11 @@ button {
     padding-bottom: 25px;
 }
 
-.oneof3 img, .oneof3 video {
+.oneof3 img, .oneof3 video, .twoof3 img, .twoof3 video, .threeof3 img, .threeof3 video {
     width: 100%;
     position: relative;
     object-fit: cover;
-    height: 483px;
+    min-height: 483px;
 }
 
 .twoof3 {
@@ -504,25 +505,11 @@ button {
     padding-bottom: 25px;
 }
 
-.twoof3 img, .twoof3 video {
-    width: 100%;
-    position: relative;
-    object-fit: cover;
-    height: 483px;
-}
-
 .threeof3 {
     grid-column: 16/span 7;
     position: relative;
     overflow: hidden;
     padding-bottom: 25px;
-}
-
-.threeof3 img, .threeof3 video {
-    width: 100%;
-    position: relative;
-    object-fit: cover;
-    height: 483px;
 }
 
 .oneof2 {
@@ -531,24 +518,17 @@ button {
     overflow: hidden;
 }
 
-.oneof2 img, .oneof2 video {
+.oneof2 img, .oneof2 video, .twoof2 img,.twoof2 video  {
     width: 100%;
     position: relative;
     object-fit: cover;
-    height: 560px;
+    min-height: 560px;
 }
 
 .twoof2 {
     grid-column: 13/span 10;
     position: relative;
     overflow: hidden;
-}
-
-.twoof2 img,.twoof2 video  {
-    width: 100%;
-    position: relative;
-    object-fit: cover;
-    height: 560px;
 }
 
 .tofill {
@@ -713,7 +693,7 @@ grid-column: 6/span 6; }
 nav a {
         margin: 0 0 0 56px; }
 
-.description { right: 40%; padding-bottom: 100px }
+.description { right: 10%; padding-bottom: 100px }
 
 .heading {
     grid-column: 3/span 18;}
@@ -735,4 +715,13 @@ nav a {
     min-height: 600px;}
 .button1 {
     grid-column: 3 / span 16; }
+}
+
+@media (max-width: 600px) {
+body {
+    font-size: 16px;
+}
+h2 {
+    font-size: 17px;
+}
 }
