@@ -18,10 +18,9 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-ScrollReveal().reveal('.text', 'heading',{ delay: 100 });
+ScrollReveal().reveal('.text', 'heading',{ delay: 200 });
 ScrollReveal().reveal('.fullcolumn', { delay: 200 });
-ScrollReveal().reveal('.columnone', { delay: 100 });
-ScrollReveal().reveal('.columntwo', '.oneof2', 'twoof2', 'oneof3','twoof3','threeof3', { delay: 100 });
+ScrollReveal().reveal('.columntwo','.columnone', '.oneof2', 'twoof2', 'oneof3','twoof3','threeof3', { delay: 100 });
 
 
 /* Slideshow */

@@ -458,7 +458,7 @@ button {
 
 .text {
     grid-column: 3 / span 10;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
 }
 
 .text h2 {
@@ -480,36 +480,36 @@ button {
     position: relative;
     text-decoration: none;
     overflow: hidden;
-    border-radius: 5px;
     float: left;
+    overflow: hidden;
 }
 
 .oneof3 {
     grid-column: 3/span 7;
     position: relative;
     overflow: hidden;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .oneof3 img, .oneof3 video, .twoof3 img, .twoof3 video, .threeof3 img, .threeof3 video {
     width: 100%;
     position: relative;
     object-fit: cover;
-    min-height: 483px;
+    min-height: 480px;
 }
 
 .twoof3 {
     grid-column: 10/span 6;
     position: relative;
     overflow: hidden;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .threeof3 {
     grid-column: 16/span 7;
     position: relative;
     overflow: hidden;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .oneof2 {
@@ -535,15 +535,11 @@ button {
     grid-column: 14/span 7;
 }
 .fullcolumn img {
-    margin-bottom: 90px;
+    margin-bottom: 120px;
 }
 
 .fullcolumn video {
     margin-bottom: 50px;
-}
-
-.heading img, .text img, .fullcolumn img {
-    border-radius: 5px;
 }
 
 .about {
@@ -569,44 +565,32 @@ button {
 }
 
 .button2 {
-    margin-top: 150px;
-    grid-column: 13/span 4;
-    cursor: pointer;
+    grid-column: 3 / span 10;
+    background-color:#F7F7F7;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    height: 85px;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .button1 a {
     vertical-align: middle;
     text-align: center;
-    padding: 17px 40px;
+    padding: 18px 150px;
     color: #1f1f1f;
     text-decoration: none;
 }
 
-.button1:hover{
+.button1:hover, .button2:hover{
     background-color: #EBEBEB;
     transition: 0.3s;
     color:#1f1f1f;
     cursor: pointer;
 }
-
-#myBtn {
-    padding: 10%;
-    border-radius: 5px;
-    position: fixed;
-    border: none;
-    outline: none; 
-    color: #1f1f1f; 
-    background-color: #F7F7F7;
-    cursor: pointer;
-    height: 67px;
-  }
-  
-#myBtn:hover {
-    background-color: white;
-    transition: 0.3s;
-  }
 
 html {
     scroll-behavior: smooth;
@@ -637,9 +621,14 @@ html {
     .columntwo {
         grid-column: 8/span 5;
         width: 90%;}
+
     .tofill {
-        grid-column: 15/span 6;
+        grid-column: 15/span 6; }
+
+    .oneof3 img, .oneof3 video, .twoof3 img, .twoof3 video, .threeof3 img, .threeof3 video {
+        min-height: 360px;
     }
+    
     .button1 {
         grid-column: 3 / span 11; }
 }
@@ -680,16 +669,19 @@ html {
 grid-column: 6/span 6; }
 
 .oneof3 img, .oneof3 video,.twoof3 img, .twoof3 video, .threeof3 img, .threeof3 video {
-    height: 360px}
+    height: 380px;}
 
 .oneof2 img, .oneof2 video, .twoof2 img, .twoof2 video {
-    height: 430px;}
+    min-height: 500px;}
 
 .columnone, .columntwo {
     width:100%; }
+
+.button1 a {
+    padding: 18px 105px;}
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 nav a {
         margin: 0 0 0 56px; }
 
@@ -706,10 +698,15 @@ nav a {
 .columntwo { 
     grid-column: 10/span 7;}
 .oneof3, .twoof3, .threeof3, .oneof2, .twoof2{
-    grid-column: 3/span 20;}
+    grid-column: 3/span 20;
+    align-content: center;}
 
-.oneof3 img, .oneof3 video,.twoof3 img, .twoof3 video, .threeof3 img, .threeof3 video{
-    min-height: 900px;}
+.oneof3 img, .oneof3 video, .threeof3 img, .threeof3 video{
+    height: 1000px; }
+
+.twoof3 img, .twoof3 video {
+    height: 1000px;
+    width: 100%; }
 
 .oneof2 img, .oneof2 video, .twoof2 img, .twoof2 video {
     min-height: 600px;}
