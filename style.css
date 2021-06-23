@@ -542,6 +542,16 @@ button {
     margin-bottom: 50px;
 }
 
+.figma {
+    width: 800px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    grid-column: 3 / span 10;
+    padding-bottom: 120px;
+}
+
 .about {
     grid-column: 11/span 9;
 }
@@ -633,7 +643,7 @@ html {
         grid-column: 3 / span 11; }
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
     .preview-5{
         grid-column: 3/span 20;
         height: 630px;
@@ -648,19 +658,6 @@ html {
     .preview-7{
         grid-column: 3/span 20;
     }
-.preview{
-    grid-column: 2/span 13;
-}
-.preview-2, .preview-2 a {
-    grid-column: 15 / span 9;
-    position: relative;
-}
-.preview-3 {
-    grid-column: 2/span 11;
-}
-.preview-4 {
-    grid-column: 13/span 11;
-}
 .about {
     padding-top: 30px;
     grid-column: 6/span 14;
@@ -681,7 +678,7 @@ grid-column: 6/span 6; }
     padding: 18px 105px;}
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
 nav a {
         margin: 0 0 0 56px; }
 
@@ -715,10 +712,9 @@ nav a {
 }
 
 @media (max-width: 600px) {
+
 body {
-    font-size: 16px;
-}
-h2 {
+    width: auto;
     font-size: 17px;
 }
 }
