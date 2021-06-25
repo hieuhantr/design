@@ -172,6 +172,14 @@ a.preview:hover, a.preview-right:hover {
     transition: 0.3s;
 }
 
+nav img {
+    width: 17px;
+    height: 27px;
+}
+
+#logo {
+    max-width: 130px;
+}
 .tagline {
     grid-column: 2/span 20;
     padding-left: 12%;
@@ -696,13 +704,14 @@ nav a {
 .oneof2 img, .oneof2 video, .twoof2 img, .twoof2 video {
     min-height: 600px;}
 .button1 a {
-    padding: 18px 150px;}
+    padding: 17px 130px;}
+h2 {
+        font-size: 20px; }
+nav img {
+    width: 23px;
+    height: 32px;
 }
-
-@media (max-width: 600px) {
-
-body {
-    width: auto;
-    font-size: 17px;
+#logo {
+    min-width: 160px;
 }
 }
