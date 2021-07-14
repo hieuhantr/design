@@ -29,19 +29,19 @@
     }
     </style>
 <header>
-    <a href="index.html" style="padding-left: 14%"> <img src="logo-text.svg" alt="Hieu Han Tran logo"></a>
+    <a href="index.html" style="padding-left: 14%"> <img id="logo" src="logo-text.svg" alt="Hieu Han Tran logo"></a>
     <nav style="padding-right: 14%">
         <h2>
         <a href="index.html"> WORK </a>
         <a href="about.html" >ABOUT </a> 
-        <a href="http://www.linkedin.com/in/hieuhantran/"> <img src="logo-linkedin.svg" width="17" height="27"> </a>
+        <a href="http://www.linkedin.com/in/hieuhantran/"> <img id="linkedin"src="logo-linkedin.svg"> </a>
         </h2>
     </nav>
 </header>  
 
 <div class="tagline" style="text-align: center; padding-bottom: 15px">
     <h1 style="padding-bottom: 5px;"> Venmo </h1>
-    <h3> Adding a new recurring payment feature for current users </h3>
+    <h3> Adding a new recurring payment set up for current users </h3>
 </div> 
 
 <div class="bigframe">
@@ -55,52 +55,59 @@
 
  
  <div class="text">
-    <p> Millions of people are sharing rent and bills on Venmo every day, which led to a lot of repeated payments. This new feature allows users to repeat their payments without doing it all over again everytime—avoiding frustration, financial penalties, and in case of late payments, unfavorable effects on their relationships. <br> <br>
+    <span> Problem: </span> With frequent Venmo users, duplicating the exact process every time results in frustration, financial penalties, effects on relationships, and still doesn't ensure 100% timely payments.  <br> <br>
+    <span> Solution: </span> A new feature set up that allows users to repeat payments just by setting up once—solving all users' pain points and increasing Venmo's competitve advantage.  <br> <br>
       <span> My role: </span> Business research, ideating, UI/UX design, and prototyping. <br>
     <span> Project type: </span> Individual project <br>
-    <span> Tools used: </span> Figma, LucidChart, Excel </div>
+    <span> Tools used: </span> Figma, LucidChart, Excel
+
+  
     </p> 
 </div>
  
 <div class="fullcolumn">
     <img style="width: 100%;" src="project-venmo/Summary.png">
+    <h5> A user flow of the repeat payment feature</h5>
 </div>
 
 <div class="heading">
     <img src="project-venmo/logo.svg">
     </div> 
  
- <div class="text" style="padding-bottom: 40px;">
+ <div class="text" style="padding-bottom: 30px;">
     Venmo (owned by PayPal) is a mobile payment service where users can transfer funds to each other within the U.S.  Most Venmo customers are under 34 years old. Specifically, 3.3 million are in the 18-24 age group, while 4.1 million are 25-34.
     
     When we analyzed why people use Venmo, we could see a pattern in paying for Food, Transportation, and Rent/Utilities. </div>
 
-<div class="text" style="padding-bottom: 90px;">
-    <img src="project-venmo/image3.svg"> </div> 
+<div class="text" style="padding-bottom: 5px; ">
+    <img style="width: 100%" src="project-venmo/image3.svg"> </div>
 
-<div class="text" style="padding-bottom: 40px;">
+<div class="text" style="padding-bottom: 90px">
+   </div>
+
+<div class="text" style="padding-bottom: 30px;">
     In another question, transactions’ descriptions are analyzed, grouped, and sorted based on frequency. From these two data sets, we can see that “Food/Groceries” and “Rent/Utilities” (highlighted) are among the top three most popular payments on Venmo. Millions of people are sharing rent, utilities, groceries bills repeatedly on Venmo every day. </div> 
 
 <div class="text">
-    <img src="project-venmo/image4.svg"> </div> 
+    <img style="width: 100%" src="project-venmo/image4.svg">
+ </div> 
 
 <div class="heading">
     <h2> CURRENT PROBLEM </h2> 
     </div> 
  
  <div class="text" style="padding-bottom: 40px;">
-    With how Venmo is set up, current users must go through this same task flow and then duplicate it multiple times, depending on the recurrency: </div>
-<div class="fullcolumn">
+    With how Venmo is set up, current users must go through this same task flow and then duplicate it multiple times, depending on the recurrency. </div>
+<div class="fullcolumn" style="margin-bottom: 90px;">
     <img src="project-venmo/journey.svg">
+    <h5> Current user flow of setting up payments </h5>
 </div>
 <div class="text">
-Although lengthy, this process still doesn't ensure that users remember to pay on time, every time. Late payments result in frustration, cause financial penalties, and affect the relationship with their payees. <br> <br>
-    To tackle this problem, a new recurring payment feature is required. Specifically, the unmet users' goals are: <br> <br>
+    To repeat a similar payment, people still have to start from scratch again. Although lengthy, this process still doesn't ensure that users remember to pay on time, every time. Late payments result in frustration, cause financial penalties, and affect the relationship with their payees. <br> <br>
+    To tackle this problem, a new recurring payment feature is required.Based on a survey of 25 current Venmo users, the unmet users' goals are: <br> <br>
     • &#160; Timely transfer <br>
     • &#160; Convenience of setting up once <br>
-    • &#160; Feelings of responsibility <br>
-    • &#160; Setting accurate occurences <br>
-    • &#160; Ability to edit, pause, or stop payments
+    • &#160; Setting accurate occurences
  </div>
 
 <div class="heading">
@@ -112,34 +119,41 @@ Although lengthy, this process still doesn't ensure that users remember to pay o
 </div>
 
 <div class="text">
-    <img src="project-venmo/business.svg"> 
+    <img style="width:100%" src="project-venmo/business.svg">
+    <h5> Competitive audit of direct competitors</h5>
  </div>
 
  <div class="heading">
     <h2> SKETCHES </h2> 
 </div> 
 <div class="text" style="padding-bottom: 40px">
-    I first sketched out potential solutions by asking: How can we integrate this feature seamlessly with Venmo's current system? <br> <br> I came up with three ideas but ultimately went with the first sketch below, given how people are familiar with this screen. The second and third ideas are still reserved and modified for other purposes of this feature, but not to <span> set up payment </span>.
+    I first sketched out potential solutions by asking: How can we integrate this feature seamlessly with Venmo's current system? <br> <br> I came up with three ideas but ultimately went with the first sketch (1), given how people are familiar with this screen. The second and third ideas (2 and 3) are still reserved and modified for other purposes of this feature, but not to set up payment.
 </div>
 
-<div class="oneof3">
-    <img src="project-venmo/sketch1.svg" style="margin-bottom: 120px;"> </div>
+<div class="oneof3"  style="margin-bottom: 120px;">
+    <img src="project-venmo/sketch1.svg"> 
+    <h5 style="margin-top: 10px;"> Feature sketch from current paying screen </h5>
+</div>
 
 <div class="twoof3" style="margin-bottom: 120px;"> 
-    <img src="project-venmo/sketch2.svg"> </div>
+    <img src="project-venmo/sketch2.svg"> 
+    <h5 style="margin-top: 10px;"> Feature sketch from past transactions screen </h5> </div>
 
-<div class="threeof3">
-    <img src="project-venmo/sketch3.svg" style="margin-bottom: 120px;"> </div>
+<div class="threeof3" style="margin-bottom: 120px;">
+    <img src="project-venmo/sketch3.svg" >
+    <h5 style="margin-top: 10px;"> Feature sketch from side menu </h5>
+</div>
 
  <div class="heading">
     <h2> DATA ARCHITECTURE </h2> 
 </div> 
 <div class="text" style="padding-bottom:25px">
-    This acts like the skeleton of this feature. With different repeat intervals, appropriate selections will be shown. These options give users a lot of freedom but still retain system's control.<br> <br>
-    For simplicity purposes, primary keys and back-end attributes are not shown. </div>
+    This acts like the skeleton of this feature. With different repeat intervals, appropriate selections will be shown. These options give users a lot of freedom but still retain system's control.
+    </div>
 
-<div class="fullcolumn">
-    <img src="project-venmo/information-2.svg" style="margin-bottom: 120px;">
+<div class="fullcolumn" style="margin-bottom: 120px;">
+    <img style="width: 100%"  src="project-venmo/information-2.svg" >
+    <h5> Data architecture for occurence interval selection. For simplicity purposes, primary keys and back-end attributes are not shown. </h5>
 </div>
 
  <div class="heading">
@@ -205,7 +219,7 @@ Although lengthy, this process still doesn't ensure that users remember to pay o
 
 
 <div class="text">
-    <iframe width="500" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWLtJXspCs92ixEme1llzNN%2FVenmo%3Fpage-id%3D155%253A75%26node-id%3D155%253A76%26viewport%3D4868%252C1291%252C0.4597010314464569%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+    <iframe style="width: 100%; height: 100%; position: relative; object-fit: cover;"  src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FWLtJXspCs92ixEme1llzNN%2FVenmo%3Fpage-id%3D155%253A75%26node-id%3D155%253A76%26viewport%3D4868%252C1291%252C0.4597010314464569%26scaling%3Dmin-zoom" allowfullscreen></iframe>
 </div> 
 
 <div class="heading">
@@ -217,22 +231,22 @@ Although lengthy, this process still doesn't ensure that users remember to pay o
 </div>
 
 <div class="fullcolumn">
-    <img src="project-venmo/mockup">
+    <img style="width: 100%" src="project-venmo/mockup">
 </div>
 
 <div class="fullcolumn">
-    <img src="project-venmo/reflection.png">
+    <img style="width: 100%" src="project-venmo/reflection.png">
 </div>
 
 <div class="button1">
-     <h5> <a href="polyride.html"> NEXT: POLY RIDE » </a>  </h5>
+     <h2> <a href="polyride.html"> NEXT: POLY RIDE » </a>  </h2>
 </div> 
 <script src="myscript.js"></script>
 <!-- Footer -->
 
 <div class="Footer_outer">
     <div class="Footer_inner_left"> 
-        <img src="logo-text.svg"> 
+        <img id="logo" src="logo-text.svg"> 
     </div>
 
     <div class="Footer_inner_right"> 

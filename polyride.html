@@ -30,14 +30,14 @@
         <h2>
         <a href="index.html"> WORK </a>
         <a href="about.html" >ABOUT </a> 
-        <a href="http://www.linkedin.com/in/hieuhantran/"> <img src="logo-linkedin.svg"> </a>
+        <a href="http://www.linkedin.com/in/hieuhantran/"> <img  id="linkedin" src="logo-linkedin.svg"> </a>
         </h2>
     </nav>
 </header> 
 <div class="tagline" style="text-align: center; padding-bottom: 15px">
     <h1 style="padding-bottom: 5px;"> Poly Ride</h1>
-    <h3> A safe, convenient, and efficient ride share platform for Cal Poly students</h3>
-</div> 
+    <h3> A ride share mobile app exclusively for Cal Poly students</h3>
+</div>
 
 <div class="bigframe">
     <video autoplay playsinline  muted> 
@@ -49,83 +49,124 @@
     <h2> SUMMARY </h2> </div> 
  
  <div class="text">
-    Cal Poly students are currently using a Facebook group to offer and seek rides, which is unsafe, inconvenient, and inefficient. Poly Ride is a mobile app solution with increased security, filtering options, and built-in post attributes for a better searching experience. <br> <br>
+    <span> Problem: </span> Cal Poly students are currently using a Facebook group to offer and seek rides, which is unsafe, inconvenient, and inefficient. <br> <br>
+    <span> Solution: </span> A mobile app with increased security, filtering options, and built-in post attributes for a better searching experience. <br> <br>
      <span> My role: </span> Start to finish—researching, ideating, wireframing, prototyping, and testing  <br>
     <span> Project type: </span> Individual senior project <br>
     <span> Tools used: </span> Figma, LucidChart, Iconify, Map Maker   </div>
-
-
  
 <div class="fullcolumn">
-    <img style="width: 100%;" src="project-polyride/summary.png" >
+    <img style="width: 100%;" src="project-polyride/summary.png">
+    <h5> Five notable screens of Poly Ride </h5>
 </div>
 
 <div class="heading">
-    <h2>  SO, WHAT'S THE PROBLEM? </h2> </div> 
+    <h2>  PROBLEM </h2> </div> 
 
-<div class="text" style="padding-bottom: 40px">
-    Being on the Central Coast, San Luis Obispo poses difficulties for students to commute to/from other cities. Many students do not have a car, so ride sharing is their main city-to-city transportation. The most popular channel is a Facebook group called “Cal Poly Ride Share”, but it's not the most efficient channel for ride sharing purposes. </div>
+<div class="text" style="padding-bottom: 30px">
+    Being on the Central Coast, San Luis Obispo poses difficulties for students to commute to/from other cities. Many students do not have a car, so ride sharing is their main city-to-city transportation. The most popular channel is a Facebook group called “Cal Poly Ride Share”, but it's not very efficient. There are many irrelevant posts and posts that are flooded with comments, even when the offer is full. </div>
 <div class="text">
-    <img src="project-polyride/problem.svg">
+    <img style="width:100%" src="project-polyride/problem.svg"> </div>
+<div class="text" style="padding-bottom: 90px">
+    <h5> General issues of the "Cal Poly Ride Share" group </h5>
+</div>
+
+<div class="text" style="padding-bottom: 10px">
+    Another available platform is <span> <a href="https://irideshare.org/"  target="_blank" rel="noopener noreferrer">iRideshare</a></span>. However, the platform is not exclusively for Cal Poly, so there are hardly any rides available to/from San Luis Obispo. </div>
+<div class="text">
+    <img style="width: 100%;" src="project-polyride/irideshare.png">
+    <h5> An example of iRideshare showing no available rides </h5>
 </div>
 
 
 <div class="heading">
     <h2> RESEARCH </h2> </div> 
 
- <div class="text" style="padding-bottom: 90px">
+ <div class="text" style="padding-bottom: 30px">
 
-    First, I chose <span> secondary research</span> because it allows me to have a bigger picture of the group function. Specifically, I reached out to the administrators to ask for the Facebook Group insights and was able to identify:  <br> <br>
-    • &#160; The unsecured approval process: It asks for a Cal Poly email but does not require any verification. To pass over, people only need to type in an email with "@calpoly.edu" ending. <br>
-    • &#160; Active users: Out of the 28.3K members, only around 13K are active users. These are the users I will be focusing on. <br> <br> <br> <img src="project-polyride/member.svg">
+    First, I chose <span> <a href="https://docs.google.com/spreadsheets/d/1wE1vJfqsEvB1C6tLU4jnliNJnU7RzW5n6L7LMj-XBXM/edit?usp=sharing"  target="_blank" rel="noopener noreferrer"> secondary research </a> </span> because it allows me to have a bigger picture of the group function. I reached out to administrators to ask for the Facebook Group insights, and I was able to identify:  <br> <br>
+    <span> • &#160;  The unsecured approval process</span>: It asks for a Cal Poly email but does not require any verification. To pass over, people only need to type in an email with a "@calpoly.edu" ending. <br>
+    <span> • &#160; Active users </span> (shown in figure below): Out of the 28.3K members, only around 13K are active users. These are the users I will be focusing on. </div> 
+
+<div class="text" style="background-color:white; padding-bottom: 0px">
+    <img style="width: 100%;"src="project-polyride/member.svg">
+</div>
+<div class="text" style="padding-bottom: 90px">
+    <h5> Number of active members in the last year—users who view, react, comment, or post in the past 60 days</h5>
 </div>
 
-<div class="text" style="padding-bottom: 90px">  
-    Next, I chose <span> survey </span> because it allows me to dive deeper into each user segment. They are all CP students, but with different roles: driver, rider, both, or none. With 30 participants, the problems I identified were: <br> <br> <br>
-    <img src="project-polyride/survey.svg">
+<div class="text" style="padding-bottom: 20px">
+    Next, I chose <span> <a href="https://drive.google.com/file/d/1aFmr7rWCnuWEXB_sL8kuwzSqKEkIjIHr/view?usp=sharing" target="_blank" rel="noopener noreferrer">  survey  </a> </span> because I can dive deeper into each user segment. They are all CP students, but with different roles: offerer, seeker, both, or none. With a sample size of 30 participants, the most notable data pieces I identified were:
 </div>
 
-<div class="text"> 
-    Lastly, I <span> interviewed </span> 3 users through Zoom and noted the frustrations from both sides. This allows deeper insights and follow-up questions to the problems we identified above. <br>
-    <img src="project-polyride/interview.svg">
+<div class="text" style="padding-bottom: 0px">
+    <img style="width:100%" src="project-polyride/Group 168.svg" > </div>
+
+<div class="text" style="padding-bottom: 90px; padding-top: 5px">
+    <h5> Notable data from the research survey</h5>
+</div>
+
+
+<div class="text" style="padding-bottom: 30px"> 
+    Lastly, I <span> interviewed </span> 3 users through Zoom and noted the frustrations from both sides. This allows deeper insights and follow-up questions to the problems we identified above.</div>
+
+<div class="text" style="padding-bottom: 0px">
+    <img style="float:left; padding-bottom: 0px; width: 100%;" src="project-polyride/interview.svg"> </div>
+
+<div class="text" style="padding-top: 5px">
+    <h5> Notable insights from the interview research</h5>
+</div>
+
+<div class="heading">
+    <h2> KEY INSIGHTS </h2></div> 
+
+<div class="text">
+    From these research, we can see there is a misalignment on how offerers and seekers use ride sharing, and there are potential improvements for this process. Specifically, users are unsure of: <span>(1) </span>who they ride with, <span> (2) </span> how they can timely find a ride, and <span>(3) </span>the amount of people they need to message to get one. <br> <br>
+    To combat the problems that were gathered previously, Poly Ride's goals are to be: <br> <br>
+    <span class="word">Safe</span>Increase safety by confirming users' CP student status when joining the app <br> 
+    <span class="word">Convenient</span> Save time by allowing users to filter and refine their search <br>
+    <span class="word">Efficient</span> Decrease the amount of messages to get a ride to 1-3 people
 </div>
 
 <div class="heading">
     <h2> USERS </h2></div> 
 
  <div class="text"> 
-    <img src="project-polyride/persona-test.svg"> <br> </div>
+    <img style="width: 100%;" src="project-polyride/persona-test.svg"> <br> </div>
 
-<div class="heading">
-    <h2> USER JOURNEY </h1> </div> 
-        
- <div class="text" style="padding-bottom: 40px"> 
-    In this process, I bucketed the pain points into five sub-processes and identified potential improvements we could make for each. </div>
-
-    
-<div class="fullcolumn">
-    <img src="project-polyride/group-2.svg" style="width: 100%;
-    position: relative; object-fit: cover;">
-</div>
 
 <div class="heading">
     <h2> USER FLOW </h2> </div> 
 
  <div class="text" style="padding-bottom: 40px"> 
-   Although users are segmented into drivers and riders, both of their journeys can be summarized into these five sub-processes. This journey outlines the start-to-finish activities users need to take to complete a ride.
+   Although users are segmented into offerer and seeker, both of their journeys can be summarized into these five sub-processes. This flow outlines the start-to-finish activities users need to take to complete a ride.
 </div>
  <div class="fullcolumn">
     <img src="project-polyride/user-flow.svg" style="width: 100%; position: relative; object-fit: cover;">
 </div>
 
 <div class="heading">
+    <h2> CUSTOMER JOURNEY </h1> </div> 
+        
+ <div class="text" style="padding-bottom: 40px"> 
+    In this process, I investigated the five phases of seeking a ride and identified potential improvements we could make for each. </div>
+
+
+<div class="fullcolumn">
+    <img src="project-polyride/group-2.svg" style="width: 100%;
+    position: relative; object-fit: cover;">
+</div>
+<div class="heading">
     <h2> WIREFRAMES </h2> </div> 
   <div class="text" style="padding-bottom: 40px"> 
   As I started brainstorming and sketching, I referred to some successfully proven apps like Uber, Airbnb, and LinkedIn, but catered to Poly Ride's needs. 
 </div>
 
- <div class="fullcolumn">
+ <div class="fullcolumn" style="margin-bottom: 3px">
     <img style="width: 100%;" src="project-polyride/wireframes.svg" style="width: 100%; position: relative; object-fit: cover;" >
+</div>
+<div class="text" style="padding-top: 5px">
+    <h5> An initial wireframe flow of Poly Ride </h5>
 </div>
 
 <div class="heading">
@@ -138,7 +179,7 @@
 
 <div class="oneof3" >
         <img src="project-polyride/row1-1.png"> </div>
-        <div class="oneof3" style="margin-bottom: 120px;" >
+<div class="oneof3" style="margin-bottom: 120px;">
             <span> Cal Poly Single Sign On:</span> <br>
               • &#160; Ensure all users are Cal Poly students to increase trust <br>
                 • &#160; Decrease the wait from 3-5 days to instant access <br>
@@ -209,11 +250,11 @@
     • &#160; Message, confirm, and view all upcoming rides <br> <br> 
     <span> Insights: </span> The last task took participants more than anticipated clicks to view upcoming rides. Although trivial, it directly interferes with the primary user journey. Upon interviewing, I found out that the CTA button’s language was misleading, and the navigation icon was not prominent enough. <br> <br>  To ensure a seamless experience, I adjusted the language and a few interactions: </div>
 
-<div class="oneof2">
-    <img src="project-polyride/before.svg" style="margin-bottom: 120px"> </div>
+<div class="oneof2" style="background-color: #ebebeb; margin-bottom: 120px" >
+    <img src="project-polyride/before.svg"> </div>
 
-<div class="twoof2">
-    <img src="project-polyride/after.svg" style="margin-bottom: 120px"> </div>
+<div class="twoof2" style="background-color: #ebebeb; margin-bottom: 120px">
+    <img src="project-polyride/after.svg"> </div>
 
 <div class="heading">
     <h2> INTERACTIVE PROTOTYPE  </h2> </div>
@@ -244,7 +285,7 @@
 
 <div class="Footer_outer">
     <div class="Footer_inner_left"> 
-        <img src="logo-text.svg"> 
+        <img id="logo" src="logo-text.svg"> 
     </div>
 
     <div class="Footer_inner_right"> 
