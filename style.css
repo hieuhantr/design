@@ -693,6 +693,9 @@ html {
     h2 {
         font-size: 22px;
     }
+    h3 {
+        font-size: 19px;
+    }
     .heading {
         text-decoration: underline 8px #E1EBE7;
     }
